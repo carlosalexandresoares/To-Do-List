@@ -51,6 +51,7 @@ h1{
     border-radius: 5px;
 }
 
+
 li.completed {
     background-color: rgba(115, 246, 115, 0.789);
     text-decoration: line-through;
