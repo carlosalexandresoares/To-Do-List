@@ -7,14 +7,14 @@
 body {
     min-height: 100vh;
     width: 100%;
-    overflow-x: hidden; /* Evita rolagem horizontal */
+    overflow-x: hidden; 
     position: relative;
 }
 
-/* Criar um pseudo-elemento para o efeito de blur */
+
 body::before {
     content: "";
-    position: fixed; /* Mantém o fundo fixo */
+    position: fixed; 
     top: 0;
     left: 0;
     width: 100%;
@@ -23,9 +23,9 @@ body::before {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    filter: blur(10px); /* Aplica o desfoque */
-    z-index: -1; /* Mantém no fundo */
-    pointer-events: none; /* Garante que não bloqueia interação com outros elementos */
+    filter: blur(10px); 
+    z-index: -1; 
+    pointer-events: none; 
 }
 
 .container {
@@ -37,7 +37,7 @@ body::before {
     border-radius: 20px;
 }
 
-/* Mantendo o estilo dos outros elementos */
+
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
