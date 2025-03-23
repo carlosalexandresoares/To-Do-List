@@ -4,21 +4,32 @@
     box-sizing: border-box;
 }
 
-.container {
-    max-width: 500px;
-    text-align: center;
-    margin: 50px auto;
-    background-color: #d2d2d2;
-    padding: 20px;
-    border-radius: 20px;
+body {
+    background-image: url(the-pros-and-cons-of-paper-to-do-lists.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(8px);
+    height: 100vh;
 
 }
 
-h1{
+.container {
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+    background-color: #59dbffb5;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+
+h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #taskInput {
+    background-color: rgba(0, 0, 255, 0);
     margin: 20px;
     padding: 10px;
     width: 300px;
@@ -49,6 +60,7 @@ h1{
     justify-content: space-between;
     align-items: center;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 
@@ -56,6 +68,7 @@ li.completed {
     background-color: rgba(115, 246, 115, 0.789);
     text-decoration: line-through;
     color: gray;
+
 }
 
 .delete-btn {
