@@ -6,17 +6,19 @@
 
 body {
     background-image: url(the-pros-and-cons-of-paper-to-do-lists.jpeg);
-    background-repeat: no-repeat;
     background-size: cover;
-    backdrop-filter: blur(8px);
-    height: 100vh;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+    height: 100vh;   
+    position: fixed;
+    width: 100%;
 
 }
 
 .container {
     max-width: 500px;
     text-align: center;
-    margin: auto;
+    margin: 165px auto;
     background-color: #59dbffb5;
     padding: 20px;
     border-radius: 20px;
@@ -64,12 +66,7 @@ h1 {
 }
 
 
-li.completed {
-    background-color: rgba(115, 246, 115, 0.789);
-    text-decoration: line-through;
-    color: gray;
 
-}
 
 .delete-btn {
     padding: 3px;
